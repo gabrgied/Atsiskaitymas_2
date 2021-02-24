@@ -1,0 +1,199 @@
+body {
+  background: #f3f3f3;
+  color: #4B4F51;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 18px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.text {
+  width: 100%;
+}
+
+.grid-box {
+  margin: 0 auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto;
+ grid-template-rows: auto auto auto auto auto auto auto;
+  grid-template-areas:
+  "alert alert alert"
+  "info info info"
+  "contagion contagion contagion"
+  "transmission contacts objects"
+  "symptoms symptoms symptoms"
+  "what-to-do what-to-do what-to-do"
+  "masks wash-hands avoid-contacts"
+  ;
+}
+
+.alert, .box, .info {
+  background-color: white;
+}
+
+.box {
+  border-bottom: 0.5vh solid #fb4c47;
+}
+
+
+.alert {
+    grid-area: alert;
+
+}
+
+.alert img {
+  float: right;
+  clear:both;
+}
+
+.alert p {
+  width: 50%;
+  display: inline;
+  float: left;
+}
+
+.alert, .info {
+  text-align:left;
+}
+
+
+
+.info {
+    grid-area: info;
+}
+
+.contagion {
+    grid-area: contagion;
+    text-align: center;
+}
+
+.transmission {
+    grid-area: transmission;
+}
+.contacts {
+    grid-area: contacts;
+}
+
+.objects {
+    grid-area: objects;
+}
+
+.symptoms {
+    grid-area: symptoms;
+    text-align: center;
+}
+
+.symptoms img {
+  margin: 0 auto;
+  width: auto;
+}
+
+.what-to-do {
+    grid-area: what-to-do;
+    text-align: center;
+}
+
+.masks {
+    grid-area: masks;
+}
+
+.wash-hands {
+    grid-area: wash-hands;
+}
+
+.avoid-contacts {
+    grid-area: avoid-contacts;
+}
+
+#codiv-logo {
+  float: left;
+}
+
+#at-home {
+  max-width: 20vw;
+}
+
+#symptoms {
+  max-width: 55vw;
+}
+
+
+
+
+img {
+  max-width: 15vw;
+}
+
+.menu {
+  display: inline;
+}
+
+div  {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+ul li {
+  float: right;
+padding-left: 2vw;
+}
+
+button {
+  background: #fb4c47;
+  width: 8vw;
+  height: 5vh;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Red Hat Display', sans-serif;
+  color: white;
+
+}
+
+a:hover {
+  color: blue;
+}
+
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+h1, h2, a {
+  color: #035755;
+}
+
+h3 {
+  color: #fb4c47;
+}
+
+h4 {
+  color: black;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 27px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
